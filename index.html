@@ -863,16 +863,6 @@
                   autoFocus
                 />
                 
-                {passwordAttempts > 0 && (
-                  <p style={{
-                    color: '#f44336',
-                    fontSize: '0.85rem',
-                    marginBottom: '0.5rem'
-                  }}>
-                    틀린 횟수: {passwordAttempts}/5
-                  </p>
-                )}
-                
                 <button
                   onClick={() => {
                     if (isPasswordSet) {
